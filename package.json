@@ -1,0 +1,51 @@
+{
+  "name": "videojs-webrtc-plugin",
+  "version": "1.0.0",
+  "description": "a common videojs plugin for webrtc",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c scripts/rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenleno/videojs-webrtc-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenleno/videojs-webrtc-plugin/issues"
+  },
+  "homepage": "https://github.com/chenleno/videojs-webrtc-plugin#readme",
+  "dependencies": {
+    "adapter": "^1.0.0-beta.10",
+    "global": "^4.4.0",
+    "video.js": "^7.15.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/runtime": "^7.14.0",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@videojs/generator-helpers": "~2.0.2",
+    "jsdoc": "~3.6.6",
+    "karma": "^6.3.2",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "rollup": "^2.46.0",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "sinon": "^9.1.0",
+    "videojs-generate-karma-config": "~8.0.0",
+    "videojs-generate-postcss-config": "~3.0.0",
+    "videojs-generate-rollup-config": "~6.2.0",
+    "videojs-generator-verify": "~3.0.3",
+    "videojs-standard": "^8.0.4"
+  }
+}
